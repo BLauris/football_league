@@ -153,7 +153,6 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   neo4j (~> 4.1.0)
-  neo4j-core
   rails (= 4.1.9)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
