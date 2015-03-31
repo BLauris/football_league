@@ -3,6 +3,7 @@ class Team
   property :name, type: String
 
   has_one :out, :league, type: :play_in
+  has_one :out, :game, type: :game_played
   has_many :in, :players, origin: :team
 
   has_many :both, :followers, type: :following

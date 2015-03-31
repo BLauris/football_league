@@ -1,7 +1,7 @@
-class Statistic 
+class PlayerStatistic 
   include Neo4j::ActiveNode
   property :goals, type: Integer
-  property :passes, type: Integer
+  property :asists, type: Integer
   property :apearances, type: Integer
   property :minutes_played, type: integer
 

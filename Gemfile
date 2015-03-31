@@ -27,6 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'neo4j', '~> 4.1.0'
+gem 'neo4j-core'
 gem 'faker'
 
 # Use ActiveModel has_secure_password
